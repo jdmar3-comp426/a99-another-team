@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, initial-scale:1.0">
+  <title>Create Account – Cookie Clicker</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="cookie.svg" type="image/x-icon">
+</head>
+
+<body>
+  <div class="content contentFlex right">
+    <div class="header">
+      <h1>Cookie Clicker</h1>
+    </div>
+    <div class="main">
+      <div class="loginBox">
+        <form id="accountForm" method="post" action="/app/new">
+          <h1 class="hText">Create an account</h1>
+          <h3 class="hText lighter">
+            <a href="/app">
+              Have have an account?
+              <br />
+              <u>Go back.</u>
+            </a>
+          </h3>
+          <input class="loginField" placeholder="Email address" name="email" required/>
+          <input class="loginField" placeholder="Choose a username" name="user" required/>
+          <input class="loginField" type="password" placeholder="Password" name="pass" required/>
+          <a href="/app"> 
+            <button class="submit">
+              Sign up!
+            </button>
+          </a>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="splash left splashLeft"></div>
+  <script>
+  
+  </script>
+
+</body>
+
+</html>
